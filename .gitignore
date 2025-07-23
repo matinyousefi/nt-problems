@@ -306,3 +306,10 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+
+# we prefer to look at pdf file as artifact not version controlled content
+*.pdf
+
+# Ignore all .tex files
+*.tex
+!*_template.tex

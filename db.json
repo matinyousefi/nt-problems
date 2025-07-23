@@ -1,0 +1,314 @@
+[
+    {
+        "id": 1, 
+        "link": "https://artofproblemsolving.com/community/c6h5374p17349", 
+        "statement": "How many pairs of positive integers $(a, b)$ satisfy $$\frac1a + \frac1b = \frac1{2004}$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 2,
+        "link": "https://artofproblemsolving.com/community/c6h2667229p23110475",
+        "statement": "Find all ordered pairs of integers $(x, y)$ with $y \\ge 0$ such that $x^2 + 2xy + y! = 131$.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 3,
+        "link": "https://artofproblemsolving.com/community/c6h2303337p18238113",
+        "statement": "Find all pairs of prime numbers $(p, q)$ for which the numbers $p+q$ and $p+4q$ are simultaneously perfect squares.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 4,
+        "link": "https://artofproblemsolving.com/community/c6h2381902p19523691",
+        "statement": "Let $x$ and $y$ be integers with $x + y \\ne 0$. Find all pairs $(x, y)$ such that $$\\frac{x^2 + y^2}{x + y}= 10.$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 5,
+        "link": "https://artofproblemsolving.com/community/c6h2917315p26057490",
+        "statement": "Solve the following system of equations in integer numbers $$\\begin{cases} x^2 = yz + 1 \\\\ y^2 = zx + 1 \\\\ z^2 = xy + 1 \\end{cases}$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 6,
+        "link": "https://artofproblemsolving.com/community/c6h2917310p26057476",
+        "statement": "Find all triples $(a, b, c)$ of integers that satisfy the equations $a + b = c$ and $a^2 + b^3 = c^2$.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 7,
+        "link": "https://artofproblemsolving.com/community/c6h1989835p13861080",
+        "statement": "Find all pairs of positive integers $a, b$ such that $$\\sqrt{a+2\\sqrt{b}}=\\sqrt{a-2\\sqrt{b}}+\\sqrt{b}$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 8,
+        "link": "https://artofproblemsolving.com/community/c6h2030000p14304224",
+        "statement": "Determine all pairs $(x, y)$ of integers for which satisfy the equality $$\\sqrt{x-\\sqrt{y}}+ \\sqrt{x+\\sqrt{y}}= \\sqrt{xy}$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 9,
+        "link": "https://artofproblemsolving.com/community/c6h1846516p12435979",
+        "statement": "Determine all pairs $(p, q)$, $p, q \\in \\mathbb {N}$, such that $$(p + 1)^{p - 1} + (p - 1)^{p + 1} = q^q$$.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 10,
+        "link": "https://artofproblemsolving.com/community/c6h1857836p12557728",
+        "statement": "Prove that there are no integers $x,y,z$ such that $x^4+y^4+z^4-2x^2y^2-2y^2z^2-2z^2x^2 $ is a prime.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 11,
+        "link": "https://artofproblemsolving.com/community/c6h76617p439969",
+        "statement": "Find all positive integers $x , y$ which are roots of the equation $$2 x^y-y= 2005$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 12,
+        "link": "https://artofproblemsolving.com/community/c6h2028634p14288575",
+        "statement": "Find all triplets $(a, k, m)$ of positive integers that satisfy the equation $$ k + a^k = m + 2a^m$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 13,
+        "link": "https://artofproblemsolving.com/community/c6h2031744p14324836",
+        "statement": "Find all positive integers $x$, for which the equation $$a+b+c=xabc$$ has solution in positive integers. Solve the equation for these values of $x$.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 14,
+        "link": "https://artofproblemsolving.com/community/c6h2032327p14330522",
+        "statement": "Solve the following equation in natural numbers $$\\frac{1}{x}+\\frac{2}{y}-\\frac{4}{z}=1$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 15,
+        "link": "https://artofproblemsolving.com/community/c6h3439331p33152929",
+        "statement": "Find the number of positive integer pairs $(x, y, z)$ that $$\\frac{1}{x+1}+\\frac{1}{y+2}+\\frac{1}{z+3}=\\frac{11}{12}$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 16,
+        "link": "https://artofproblemsolving.com/community/c6h62021p371633",
+        "statement": "Determine all triples of positive integers $(x,y,z)$ with $x \\leq y \\leq z$ satisfying $xy+yz+zx-xyz=2.$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 17,
+        "link": "https://artofproblemsolving.com/community/c6h3328846p30812331",
+        "statement": "Let $a,b,c$ be integers satisfying $a+b+c=1$ and $ab+bc+ca<abc$. Show that $ab+bc+ca<2abc$.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 18,
+        "link": "https://artofproblemsolving.com/community/c6h3328850p30812339",
+        "statement": "Among all triples $(a,b,c)$ of natural numbers satisfying \\[(a+14\\sqrt{3})(b-14c\\sqrt{3})=2024,\\] determine the one with the maximal value of $a$.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 19,
+        "link": "https://artofproblemsolving.com/community/c6h1989937p13862039",
+        "statement": "Let $k$ be a given positive integer. Find all triples of positive integers $a, b, c$, such that $a + b + c = 3k + 1$, $ab + bc + ca = 3k^2 + 2k$.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 20,
+        "link": "https://artofproblemsolving.com/community/c6h1708232p11004295",
+        "statement": "Find all positive integers $\\overline{xyz}$ ($x$, $y$ and $z$ are digits) such that $$\\overline{xyz} = x+y+z+xy+yz+zx+xyz$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 21,
+        "link": "https://artofproblemsolving.com/community/c6h1830577p12256228",
+        "statement": "Let $x_1,x_2,x_3,...,x_{102}$ be natural numbers such that $x_1<x_2<x_3<...<x_{102}<255$. Prove that among the numbers $d_1=x_2-x_1, d_2=x_3-x_2, ..., d_{101}=x_{102}-x_{101}$ there are at least $26$ equal.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 22,
+        "link": "https://artofproblemsolving.com/community/c6h2917317p26057501",
+        "statement": "Let $a$ and $b$ be positive integers with the property that $\\frac{a}{b} > \\sqrt2$. Prove that $$\\frac{a}{b} - \\frac{1}{2ab} > \\sqrt2$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 23,
+        "link": "https://artofproblemsolving.com/community/c1068820h2041388p14442041",
+        "statement": "Find all integers $x,y$ that satisfy the equation $x+y=x^2-xy+y^2$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 24,
+        "link": "https://artofproblemsolving.com/community/c6h1708262p11004603",
+        "statement": "Find all triplets of positive integers $a$, $b$ and $c$ such that $a \\geq b \\geq c$ and $$\\left(1+\\frac{1}{a}\\right)\\left(1+\\frac{1}{b}\\right)\\left(1+\\frac{1}{c}\\right)=2$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 25,
+        "link": "https://artofproblemsolving.com/community/c6h1631711p10245168",
+        "statement": "Find all pairs of positive integers ($x$,$y$) such that $$y^3=x^3+7x^2+4x+15$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 26,
+        "link": "https://artofproblemsolving.com/community/c6h1441393p8205563",
+        "statement": "Find all natural numbers $x,y$ such that $$x^5=y^5+10y^2+20y+1.$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 27,
+        "link": "https://artofproblemsolving.com/community/c1068820h2465687p20593670",
+        "statement": "Determine all pairs of integers $(x, y)$ that satisfy equation $$(y - 2) x^2 + (y^2 - 6y + 8) x = y^2 - 5y + 62$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 28,
+        "link": "https://artofproblemsolving.com/community/c6h199573p1097460",
+        "statement": "Find all integers $ (x,y,z)$, satisfying equality $$ x^2(y - z) + y^2(z - x) + z^2(x - y) = 2$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 29,
+        "link": "https://artofproblemsolving.com/community/c6h199577p1097471",
+        "statement": "Find all natural pairs $ (x,y)$, such that $ x$ and $ y$ are relative prime and satisfy equality $$ 2x^2 + 5xy + 3y^2 = 41x + 62y + 21$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 30,
+        "link": "https://artofproblemsolving.com/community/c1068820h2459290p20508306",
+        "statement": "Determine all triplets of integers $(x, y, z)$ that validate the inequality $$x^2 + y^2 + z^2 <xy + 3y + 2z$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 31,
+        "link": "https://artofproblemsolving.com/community/c6h2667241p23110625",
+        "statement": "A sequence of positive integers $g_1$, $g_2$, $g_3$, $. . . $ is defined as follows: $g_1 = 1$ and for every positive integer $n$, $$g_{n + 1} = g^2_n + g_n + 1.$$ Show that $g^2_{n} + 1$ divides $g^2_{n + 1}+1$ for every positive integer $n$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 32,
+        "link": "https://artofproblemsolving.com/community/c6h2342511p18900520",
+        "statement": "Find all pairs $(a,b)$ of prime positive integers $a,b$ such that number $A=3a^2b+16ab^2$ equals to a square of an integer.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 33,
+        "link": "https://artofproblemsolving.com/community/c6h535041p3067926",
+        "statement": "Find all integers $ m $ such that $ m^3+m^2+7 $ is divisible by $ m^2-m+1 $.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 34,
+        "link": "https://artofproblemsolving.com/community/c6h3268127p30059430",
+        "statement": "Find all positive integers $a,b$ with $a>1$ such that, $b$ is a divisor of $a-1$ and $2a+1$ is a divisor of $5b-3$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 35,
+        "link": "https://artofproblemsolving.com/community/c6h2031984p14327329",
+        "statement": "Determine all pairs of non-negative integers $(m, n)$ with $m \\geq n$, such that $(m+n)^3$ divides $2n(3m^2+n^2)+8$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 36,
+        "link": "https://artofproblemsolving.com/community/c6h2032749p14335764",
+        "statement": "If the following number is an integer, find the possible values of $n \\in \\mathbb Z$. $$K = \\frac{9n^2+31}{n^2+7}$$",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 37,
+        "link": "https://artofproblemsolving.com/community/c6h2032770p14335916",
+        "statement": "Find all positive integers which can be written in the form $(mn+1)/(m+n)$, where $m,n$ are positive integers.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 38,
+        "link": "https://artofproblemsolving.com/community/c6h2032774p14335925",
+        "statement": "Find all pairs $(m, n)$ of integers satisfying $$m^3-4mn^2=8n^3-2m^2n$$. Also among such pairs find those for which $m+n^2=3$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 39,
+        "link": "https://artofproblemsolving.com/community/c6h62021p371633",
+        "statement": "Determine all triples of positive integers $(x,y,z)$ with $x \\leq y \\leq z$ satisfying $xy+yz+zx-xyz=2.$",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 40,
+        "link": "https://artofproblemsolving.com/community/c4h2032793p14336032",
+        "statement": "Let $n$ be a fixed positive integer and let $x, y$ be positive integers such that $xy = nx+ny$. Determine the minimum and the maximum of $x$ in terms of $n$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 41,
+        "link": "https://artofproblemsolving.com/community/c6h1830284p12253556",
+        "statement": "Prove that there is not a positive integer $n$ such that numbers $(n+1)2^n, (n+3)2^{n+2}$ are both perfect squares.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 42,
+        "link": "https://artofproblemsolving.com/community/c6h1830304p12253651",
+        "statement": "If $p$ is a prime positive integer and $x,y$ are positive integers, find, in terms of $p$, all pairs $(x,y)$ that are solutions of the equation: $p(x-2)=x(y-1)$. If it is also given that $x+y=21$, find all triplets $(x,y,p)$ that are solutions to the equation.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 43,
+        "link": "https://artofproblemsolving.com/community/c6h1830340p12253986",
+        "statement": "Find integer solutions of the equation $$8x^3 - 4 = y(6x - y^2)$$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 44,
+        "link": "https://artofproblemsolving.com/community/c6h1857824p12557681",
+        "statement": "Let $n$ be a positive integer such that $n(n+3)$ is a perfect square of an integer, prove that $n$ is not a multiple of $3$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 45,
+        "link": "https://artofproblemsolving.com/community/c6h1857593p12555189",
+        "statement": "Find all the positive integers $n , n\\ge 3$ such that $$n\\mid (n-2)!$$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 46,
+        "link": "https://artofproblemsolving.com/community/c6h1858426p12562653",
+        "statement": "Find integer solutions of $$x^3+y^3-2xy+x+y+2=0$$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 47,
+        "link": "https://artofproblemsolving.com/community/c6h1845263p12420075",
+        "statement": "Find digits $a,b,c,x$ ($a>0$) such that $\\overline{abc}+\\overline{acb}=\\overline{199x}$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 48,
+        "link": "https://artofproblemsolving.com/community/c6h2024087p14240151",
+        "statement": "For natural numbers $a, b, c$ it holds that $(a + b + c)^2 \\mid ab (a + b) + bc (b + c) + ca(c + a) + 3abc$. Prove that $$(a + b + c) \\mid (a - b)^2 + (b - c)^2 + (c - a)^2$$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 49,
+        "link": "https://artofproblemsolving.com/community/c6h2030721p14312519",
+        "statement": "Determine all natural numbers $n> 1$ with the property: For each divisor $d> 1$ of number $n$, then $d - 1$ is a divisor of $n - 1$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 50,
+        "link": "https://artofproblemsolving.com/community/c6h2381926p19523978",
+        "statement": "Find all positive integers $a$ for which the equation $7an -3n! = 2020$ has a positive integer solution $n$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 51,
+        "link": "https://artofproblemsolving.com/community/c6h2011653p14101684",
+        "statement": "Find the largest integer $n \\ge 3$ for which there is a $n$-digit number $\\overline{a_1a_2a_3...a_n}$ with non-zero digits $a_1, a_2$ and $a_n$, which is divisible by $\\overline{a_2a_3...a_n}$.",
+        "tags": ["Divisibility"]
+    },
+    {
+        "id": 52,
+        "link": "https://artofproblemsolving.com/community/c6h1904791p13031883",
+        "statement": "Let $M (x,y)=x^2+xy-2y$, $x,y$ are positive integers. (a) Solve in positive integers $x^2+xy-2y=64$. (b) Prove that if $M (x,y)$ is a perfect square, then $x+y+2$ is composite if $x>2$.",
+        "tags": ["Divisibility"]
+    }
+]
