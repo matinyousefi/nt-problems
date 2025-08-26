@@ -11,25 +11,32 @@ def generate_tex(tag, problems, output_tex):
 \usepackage{hyperref}
 \usepackage{fancyhdr}
 \usepackage[dvipsnames]{xcolor}
+\usepackage{xepersian}
 
-\definecolor{linkcolor}{rgb}{1.0, 0.33, 0.64}
-\hypersetup{colorlinks=true, urlcolor=linkcolor}
+\settextfont[BoldFont=XbNiloofarBd.ttf, ItalicFont=XbNiloofarIt.ttf, BoldItalicFont=XbNiloofarBdIt.ttf]{XbNiloofar.ttf}
+\setlatintextfont{Times New Roman}
+
+\definecolor{linkcolor}{rgb}{0.13, 0.55, 0.13}
 
 \newcounter{counter}
-\newcommand{\prob}[1]{\leavevmode\linebreak\noindent\refstepcounter{counter}\href{#1}{\bfseries Problem \thecounter .}}
+\newcommand{\problem}[1]{\leavevmode\linebreak\noindent\refstepcounter{counter}\href{#1}{\bfseries مسئله \thecounter .}}
+\newcommand{\englishtext}[1]{\leavevmode{\vspace{-10pt}\begin{latin}\noindent #1 \end{latin}}}
+
+\hypersetup{colorlinks=true, urlcolor=linkcolor}
+
+\newcommand{\subjecttitle}{""" + tag + r"""}
 
 \fancypagestyle{firstpage}{
     \fancyhf{}
-    \lhead{In the Name of God}
-    \chead{\LARGE """ + tag + r"""}
-    \rhead{\today}
-    \cfoot{\thepage}
+    \rhead{متین یوسفی}
+    \chead{\LARGE \subjecttitle}
+    \lhead{بزدلی بزرگ‌ترین گناه است...}
 }
 
 \fancypagestyle{main}{
     \fancyhf{}
-    \lhead{Matin Yousefi}
-    \rhead{""" + tag + r"""}
+    \lhead{متین یوسفی}
+    \rhead{\subjecttitle}
 }
 
 \begin{document}
@@ -38,15 +45,17 @@ def generate_tex(tag, problems, output_tex):
 """
     footer = r"\end{document}"
 
-    with open(output_tex, "w") as tex_file:
+    with open(output_tex, "w", encoding="utf-8") as tex_file:
         tex_file.write(header)
         for problem in problems:
-            tex_file.write(f"\\prob{{{problem['link']}}} {problem['statement']}\n\n")
+            tex_file.write(f"\\problem{{{problem['link']}}}\n")
+            tex_file.write(problem['persian'] + "\n\n")
+            tex_file.write(f"\\englishtext{{{problem['statement']}}}\n\n")
         tex_file.write(footer)
 
 def compile_tex(tex_file):
     try:
-        subprocess.run(["pdflatex", tex_file], check=True)
+        subprocess.run(["xelatex", tex_file], check=True)
     except subprocess.CalledProcessError:
         print("Error: Failed to compile the LaTeX file.")
         sys.exit(1)
@@ -57,28 +66,22 @@ def main():
         sys.exit(1)
 
     tag = sys.argv[1]
-    db_path = "./db.json" # Curruntly set reletive to Makefile
+    db_path = "./db.fr.json"  # Currently set relative to Makefile
     output_tex = f"{tag}.tex"
     output_pdf = f"{tag}.pdf"
 
-    # Load problems from the database
-    with open(db_path, "r") as db_file:
+    with open(db_path, "r", encoding="utf-8") as db_file:
         problems = json.load(db_file)
 
-    # Filter problems by the given tag
     filtered_problems = [p for p in problems if tag in p["tags"]]
 
     if not filtered_problems:
         print(f"No problems found with the tag '{tag}'.")
         sys.exit(1)
 
-    # Generate the .tex file
     generate_tex(tag, filtered_problems, output_tex)
-
-    # Compile the .tex file to PDF
     compile_tex(output_tex)
 
-    # Clean up auxiliary files
     for ext in [".aux", ".log"]:
         aux_file = output_tex.replace(".tex", ext)
         if os.path.exists(aux_file):

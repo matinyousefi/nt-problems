@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "link": "https://artofproblemsolving.com/community/c6h5374p17349",
+        "statement": "How many pairs of positive integers $(a, b)$ satisfy $$\\frac1a + \\frac1b = \\frac1{2004}$$",
+        "persian": "چند جفت عدد صحیح مثبت $(a,b)$ وجود دارد که رابطه $$\\frac1a + \\frac1b = \\frac1{2004}$$ را برقرار کنند؟",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 2,
+        "link": "https://artofproblemsolving.com/community/c6h2667229p23110475",
+        "statement": "Find all ordered pairs of integers $(x, y)$ with $y \\ge 0$ such that $x^2 + 2xy + y! = 131$.",
+        "persian": "تمام زوج‌های مرتب عدد صحیح $(x,y)$ با $y \\ge 0$ را بیابید که در آن‌ها $$x^2 + 2xy + y! = 131$$ برقرار باشد.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 3,
+        "link": "https://artofproblemsolving.com/community/c6h2303337p18238113",
+        "statement": "Find all pairs of prime numbers $(p, q)$ for which the numbers $p+q$ and $p+4q$ are simultaneously perfect squares.",
+        "persian": "تمام جفت اعداد اول $(p,q)$ را بیابید که $p+q$ و $p+4q$ هر دو مربع کامل باشند.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 4,
+        "link": "https://artofproblemsolving.com/community/c6h2381902p19523691",
+        "statement": "Let $x$ and $y$ be integers with $x + y \\ne 0$. Find all pairs $(x, y)$ such that $$\\frac{x^2 + y^2}{x + y}= 10.$$",
+        "persian": "فرض کنید $x$ و $y$ اعداد صحیحی باشند که $x+y \\ne 0$. تمام جفت‌های $(x,y)$ را بیابید که $$\\frac{x^2 + y^2}{x + y} = 10$$ را ارضا کنند.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 5,
+        "link": "https://artofproblemsolving.com/community/c6h2917315p26057490",
+        "statement": "Solve the following system of equations in integer numbers $$\\begin{cases} x^2 = yz + 1 \\\\ y^2 = zx + 1 \\\\ z^2 = xy + 1 \\end{cases}$$",
+        "persian": "دستگاه معادلات زیر را در اعداد صحیح حل کنید: $$\\begin{cases} x^2 = yz + 1 \\\\ y^2 = zx + 1 \\\\ z^2 = xy + 1 \\end{cases}$$",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 6,
+        "link": "https://artofproblemsolving.com/community/c6h2917310p26057476",
+        "statement": "Find all triples $(a, b, c)$ of integers that satisfy the equations $a + b = c$ and $a^2 + b^3 = c^2$.",
+        "persian": "تمام سه‌تایی‌های $(a,b,c)$ از اعداد صحیح را بیابید که $a+b=c$ و $a^2 + b^3 = c^2$ برقرار باشد.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 7,
+        "link": "https://artofproblemsolving.com/community/c6h1989835p13861080",
+        "statement": "Find all pairs of positive integers $a, b$ such that $$\\sqrt{a+2\\sqrt{b}}=\\sqrt{a-2\\sqrt{b}}+\\sqrt{b}$$",
+        "persian": "تمام جفت اعداد صحیح مثبت $a,b$ را بیابید که $$\\sqrt{a+2\\sqrt{b}}=\\sqrt{a-2\\sqrt{b}}+\\sqrt{b}$$ برقرار باشد.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 8,
+        "link": "https://artofproblemsolving.com/community/c6h2030000p14304224",
+        "statement": "Determine all pairs $(x, y)$ of integers for which satisfy the equality $$\\sqrt{x-\\sqrt{y}}+ \\sqrt{x+\\sqrt{y}}= \\sqrt{xy}$$",
+        "persian": "تمام جفت $(x,y)$ از اعداد صحیح را بیابید که $$\\sqrt{x-\\sqrt{y}}+ \\sqrt{x+\\sqrt{y}}= \\sqrt{xy}$$ برقرار باشد.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 9,
+        "link": "https://artofproblemsolving.com/community/c6h1846516p12435979",
+        "statement": "Determine all pairs $(p, q)$, $p, q \\in \\mathbb {N}$, such that $$(p + 1)^{p - 1} + (p - 1)^{p + 1} = q^q$$.",
+        "persian": "تمام جفت $(p,q)$ از اعداد طبیعی را بیابید که $$ (p + 1)^{p - 1} + (p - 1)^{p + 1} = q^q $$ برقرار باشد.",
+        "tags": ["Algebra of Integers"]
+    },
+    {
+        "id": 10,
+        "link": "https://artofproblemsolving.com/community/c6h1857836p12557728",
+        "statement": "Prove that there are no integers $x,y,z$ such that $x^4+y^4+z^4-2x^2y^2-2y^2z^2-2z^2x^2 $ is a prime.",
+        "persian": "اثبات کنید که هیچ اعداد صحیح $x,y,z$ وجود ندارد که $x^4+y^4+z^4-2x^2y^2-2y^2z^2-2z^2x^2$ عدد اول باشد.",
+        "tags": ["Algebra of Integers"]
+    }
+]
